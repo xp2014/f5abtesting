@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding:utf-8 -*-
 from abtesting import *
 
@@ -38,8 +39,8 @@ commands = {'region2b_remove': '    remove region from B pool',
             'init_irules': '        create iRules for ab testing',
             'init_ip2region': '     load IP address to region mapping table into F5',
             'help': '               print this screen',
-            'deploy': '             deploy abtesting for virtual server',
-            'undeploy': '           undeploy abtesting for virtual server',
+            'deploy': '             deploy f5abtesting for virtual server',
+            'undeploy': '           undeploy f5abtesting for virtual server',
             'exit': '               exit script'}
 
 print "Available commands:"

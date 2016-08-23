@@ -1,3 +1,4 @@
+#!/usr/bin/python
 # -*- coding:utf-8 -*-
 # import getpass
 import re
@@ -12,7 +13,7 @@ class f5abtesting(object):
         self.bigip_password = bigip_password
         self.mgmt = ManagementRoot(self.bigip, self.bigip_username, self.bigip_password)
 
-    # function to undeploy the abtesting
+    # function to undeploy the f5abtesting
     def undeploy(self, vs_name, cleanup):
         pool_b_name = vs_name + '_pool_b'
         dg_region2b = vs_name + '_dg_region2b'
@@ -35,7 +36,7 @@ class f5abtesting(object):
         else:
             print 'No iRules bound on ' + vs_name
         if cleanup == 'cleanup':
-            print 'clean up abtesting configure for ' + vs_name
+            print 'clean up f5abtesting configure for ' + vs_name
             if self.mgmt.tm.ltm.rules.rule.exists(name=irules_ab):
                 print 'deleting ' + irules_ab
                 irules_tmp = self.mgmt.tm.ltm.rules.rule.load(name=irules_ab)
@@ -62,7 +63,7 @@ class f5abtesting(object):
                 print 'done'
             print 'clean up finished'
 
-    # function to deploy the abtesting
+    # function to deploy the f5abtesting
     def deploy(self, vs_name):
         pool_b_name = vs_name + '_pool_b'
         dg_region2b = vs_name + '_dg_region2b'
