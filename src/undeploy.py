@@ -40,7 +40,7 @@ def undeploy(vs_name, cleanup):
     else:
         print 'No iRules bound on ' + vs_name
     if cleanup == 'cleanup':
-        print 'clean up abtesting configure for ' + vs_name
+        print 'clean up f5abtesting configure for ' + vs_name
         if mgmt.tm.ltm.rules.rule.exists(name=irules_ab):
             print 'deleting ' + irules_ab
             irules_tmp = mgmt.tm.ltm.rules.rule.load(name=irules_ab)
