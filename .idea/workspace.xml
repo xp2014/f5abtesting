@@ -1,9 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d25d9e8b-1d1e-4810-b492-11900341ee52" name="Default" comment="update README.md&#10;">
+    <list default="true" id="d25d9e8b-1d1e-4810-b492-11900341ee52" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/f5abtesting/functions/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/abtesting.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/f5abtesting/abtesting_cli.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/f5abtesting/vs_http_irules_records.bak" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/__init__.py" afterPath="$PROJECT_DIR$/f5abtesting/__init__.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/abtesting.py" afterPath="$PROJECT_DIR$/f5abtesting/abtesting.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/abtesting_cli.py" afterPath="$PROJECT_DIR$/f5abtesting/abtesting_cli.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ip2region.conf" afterPath="$PROJECT_DIR$/f5abtesting/functions/ip2region.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/irules_tmp.conf" afterPath="$PROJECT_DIR$/f5abtesting/functions/irules_tmp.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/deploy.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/deploy.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/init_ip2region.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/init_ip2region.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/init_irules.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/init_irules.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/ip2region.conf" afterPath="$PROJECT_DIR$/f5abtesting/ip2region.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/irules_tmp.conf" afterPath="$PROJECT_DIR$/f5abtesting/irules_tmp.conf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pool_b_list.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/pool_b_list.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pool_b_mbr_add.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/pool_b_mbr_add.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/pool_b_mbr_del.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/pool_b_mbr_del.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/region2b_assign.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/region2b_assign.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/region2b_list.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/region2b_list.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/region2b_remove.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/region2b_remove.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/undeploy.py" afterPath="$PROJECT_DIR$/f5abtesting/functions/undeploy.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/vs_http_irules_records.bak" afterPath="$PROJECT_DIR$/f5abtesting/vs_http_irules_records.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/abtesting.py" afterPath="$PROJECT_DIR$/abtesting.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <list id="b922cef8-7e78-4913-a254-a956a95f3afc" name="add irules tracking" comment="" />
     <ignored path="abtesting.iws" />
@@ -32,8 +55,10 @@
     <SUITE FILE_PATH="coverage/abtesting$abtesting_cli__1_.coverage" NAME="abtesting_cli (1) Coverage Results" MODIFIED="1471945253648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/abtesting$pool_b_mbr_del.coverage" NAME="pool_b_mbr_del Coverage Results" MODIFIED="1470748027075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/abtesting$init_ip2branch.coverage" NAME="init_ip2branch Coverage Results" MODIFIED="1470392087812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/f5abtesting$abtesting_cli__1_.coverage" NAME="abtesting_cli (1) Coverage Results" MODIFIED="1472050327200" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/f5abtesting" />
     <SUITE FILE_PATH="coverage/abtesting$branch2b_remove.coverage" NAME="branch2b_remove Coverage Results" MODIFIED="1470476804924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/f5abtesting$abtesting_cli__2_.coverage" NAME="abtesting_cli (2) Coverage Results" MODIFIED="1472024745523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/f5abtesting$abtesting_cli.coverage" NAME="abtesting_cli Coverage Results" MODIFIED="1472051840834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/f5abtesting" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -44,36 +69,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="abtesting_cli.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/abtesting_cli.py">
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1989">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="e#756#977#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="abtesting.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/abtesting.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="271" column="37" selection-start-line="271" selection-start-column="37" selection-end-line="271" selection-end-column="37" />
-              <folding>
-                <element signature="e#58#67#0" expanded="true" />
-                <element signature="e#506#3087#0" expanded="false" />
-                <element signature="e#3163#5178#0" expanded="false" />
-                <element signature="e#5232#5429#0" expanded="false" />
-                <element signature="e#5485#5754#0" expanded="false" />
-                <element signature="e#5878#8040#0" expanded="false" />
-                <element signature="e#8159#10756#0" expanded="false" />
-                <element signature="e#11467#12558#0" expanded="false" />
-                <element signature="e#12677#13732#0" expanded="false" />
-                <element signature="e#14461#15607#0" expanded="false" />
-                <element signature="e#15735#17465#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="300">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,8 +84,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="Setup Script" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -124,11 +125,12 @@
         <option value="$PROJECT_DIR$/src/region2b_list.py" />
         <option value="$PROJECT_DIR$/f5abtesting/abtesting.py" />
         <option value="$PROJECT_DIR$/__init__.py" />
+        <option value="$PROJECT_DIR$/abtesting_cli.py" />
+        <option value="$PROJECT_DIR$/abtesting_cli.py" />
+        <option value="$PROJECT_DIR$/abtesting.py" />
+        <option value="$PROJECT_DIR$/abtesting.py" />
+        <option value="$PROJECT_DIR$/src/__init__.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/abtesting_cli.py" />
-        <option value="$PROJECT_DIR$/abtesting_cli.py" />
-        <option value="$PROJECT_DIR$/abtesting.py" />
-        <option value="$PROJECT_DIR$/abtesting.py" />
       </list>
     </option>
   </component>
@@ -219,30 +221,36 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\xiong\PycharmProjects\abtesting" />
-      <recent name="C:\Users\xiong\PycharmProjects\abtesting\f5abtesting" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting\f5abtesting\functions" />
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting\f5abtesting" />
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting\src" />
       <recent name="C:\Users\xiong\PycharmProjects\abtesting\" />
       <recent name="C:\Users\xiong\PycharmProjects\abtesting\src" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting\f5abtesting\functions" />
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting\src" />
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting" />
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting\src\f5abtesting" />
+      <recent name="C:\Users\xiong\PycharmProjects\f5abtesting\f5abtesting" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.abtesting_cli (2)">
-    <configuration default="false" name="abtesting_cli (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.abtesting_cli">
+    <configuration default="false" name="abtesting_cli" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/f5abtesting" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="f5abtesting" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/abtesting_cli.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/f5abtesting/abtesting_cli.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -456,11 +464,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.abtesting_cli (2)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.abtesting_cli" />
     </list>
     <recent_temporary>
       <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.abtesting_cli (2)" />
+        <item index="0" class="java.lang.String" itemvalue="Python.abtesting_cli" />
       </list>
     </recent_temporary>
   </component>
@@ -507,7 +515,14 @@
       <option name="project" value="LOCAL" />
       <updated>1471956321243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update list output format and test ignoring ssl warning ...&#10;">
+      <created>1472025322874</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1472025322874</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -521,17 +536,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1544" height="918" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17711172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32669324" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52191234" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34130147" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49003986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49003986" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32802126" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42231077" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -540,7 +556,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.327252" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -581,7 +596,9 @@
     <MESSAGE value="update main class to add method pool_b_list and region2b_list" />
     <MESSAGE value="update main  class&#10;" />
     <MESSAGE value="update README.md&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="update README.md&#10;" />
+    <MESSAGE value="update list output format and test ignoring ssl warning ...&#10;" />
+    <MESSAGE value="restructure package ..." />
+    <option name="LAST_COMMIT_MESSAGE" value="restructure package ..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -590,53 +607,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://Python/#C:/Users/xiong/PycharmProjects/abtesting/src/abtesting.py">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>Python</ID>
-          <OriginalElement>#C:/Users/xiong/PycharmProjects/abtesting/src/abtesting.py</OriginalElement>
-          <nodes />
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="240.0" y="240.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/init_ip2branch.py" />
-    <entry file="file://$PROJECT_DIR$/src/ip2region.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/irules_tmp.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/init_irules.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="42" column="50" selection-start-line="42" selection-start-column="50" selection-end-line="42" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pool_b_mbr_add.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/branch2b_assign.py" />
     <entry file="file://$PROJECT_DIR$/src/branch2b_remove.py" />
-    <entry file="file://$PROJECT_DIR$/src/abtesting.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/abtesting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="168" column="27" selection-start-line="168" selection-start-column="13" selection-end-line="168" selection-end-column="27" />
@@ -688,21 +661,21 @@
     <entry file="file://$PROJECT_DIR$/src/init_ip2branch.py" />
     <entry file="file://$PROJECT_DIR$/src/branch2b_assign.py" />
     <entry file="file://$PROJECT_DIR$/src/branch2b_remove.py" />
-    <entry file="file://$PROJECT_DIR$/src/ip2region.conf">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/ip2region.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ip2region.conf">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/ip2region.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ip2region.conf">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/ip2region.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
@@ -710,7 +683,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/irules_records.bak" />
-    <entry file="file://$PROJECT_DIR$/src/irules_tmp.conf">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/irules_tmp.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="10" column="110" selection-start-line="10" selection-start-column="110" selection-end-line="10" selection-end-column="110" />
@@ -740,21 +713,21 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/err.log" />
-    <entry file="file://$PROJECT_DIR$/src/vs_http_irules_records.bak">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/vs_http_irules_records.bak">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/undeploy.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/undeploy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
           <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/init_irules.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/init_irules.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="876">
           <caret line="43" column="45" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
@@ -776,42 +749,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pool_b_mbr_del.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/pool_b_mbr_del.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="48" column="42" selection-start-line="48" selection-start-column="42" selection-end-line="48" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/deploy.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/deploy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="27" column="80" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="80" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pool_b_mbr_add.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/pool_b_mbr_add.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="94" column="41" selection-start-line="94" selection-start-column="41" selection-end-line="94" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/region2b_remove.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/region2b_remove.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="715">
           <caret line="47" column="4" selection-start-line="47" selection-start-column="4" selection-end-line="47" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/region2b_assign.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/region2b_assign.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pool_b_list.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/pool_b_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="20" column="25" selection-start-line="20" selection-start-column="0" selection-end-line="28" selection-end-column="48" />
@@ -826,7 +799,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/region2b_list.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/region2b_list.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
           <caret line="28" column="49" selection-start-line="18" selection-start-column="0" selection-end-line="28" selection-end-column="49" />
@@ -837,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/abtesting_cli.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-450">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -861,7 +827,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/init_ip2region.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/init_ip2region.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="53" column="47" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
@@ -882,14 +848,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/abtesting.py">
+    <entry file="file://$PROJECT_DIR$/abtesting_cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
+        <state relative-caret-position="-1989">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/setup.py" />
+    <entry file="file://$PROJECT_DIR$/abtesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="271" column="37" selection-start-line="271" selection-start-column="37" selection-end-line="271" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f5abtesting/abtesting_cli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/abtesting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -902,39 +908,50 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abtesting_cli.py">
+    <entry file="file://$PROJECT_DIR$/src/f5abtesting/abtesting_cli.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1989">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#756#977#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="125">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/abtesting.py">
+    <entry file="file://$PROJECT_DIR$/f5abtesting/abtesting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="271" column="37" selection-start-line="271" selection-start-column="37" selection-end-line="271" selection-end-column="37" />
-          <folding>
-            <element signature="e#58#67#0" expanded="true" />
-            <element signature="e#506#3087#0" expanded="false" />
-            <element signature="e#3163#5178#0" expanded="false" />
-            <element signature="e#5232#5429#0" expanded="false" />
-            <element signature="e#5485#5754#0" expanded="false" />
-            <element signature="e#5878#8040#0" expanded="false" />
-            <element signature="e#8159#10756#0" expanded="false" />
-            <element signature="e#11467#12558#0" expanded="false" />
-            <element signature="e#12677#13732#0" expanded="false" />
-            <element signature="e#14461#15607#0" expanded="false" />
-            <element signature="e#15735#17465#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/f5abtesting/functions/ip2region.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

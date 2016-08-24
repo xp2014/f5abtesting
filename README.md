@@ -1,1 +1,1 @@
-A region based abtesting package.
+A python package for region based abtesting.
