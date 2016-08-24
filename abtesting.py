@@ -205,7 +205,7 @@ class f5abtesting(object):
         pool_b_name = vs_name + '_pool_b'
         if self.mgmt.tm.ltm.pools.pool.exists(name=pool_b_name, partition='Common'):
             pool_b = self.mgmt.tm.ltm.pools.pool.load(name=pool_b_name, partition='Common')
-            print 'Here is the member list of ' + pool_b_name
+            print 'Here is the member list of ' + pool_b_name + ':'
             for member in pool_b.members_s.get_collection():
                 print 'member:' + member.name + ' status:' + member.session
         else:
@@ -267,7 +267,7 @@ class f5abtesting(object):
         dg_region2b = vs_name + '_dg_region2b'
         if self.mgmt.tm.ltm.data_group.internals.internal.exists(name=dg_region2b):
             dg_tmp = self.mgmt.tm.ltm.data_group.internals.internal.load(name=dg_region2b)
-            print 'Here is the record of ' + dg_region2b
+            print 'Here is the record of ' + dg_region2b + ':'
             dg_records = dg_tmp.records
             for record in dg_records:
                 for (k, v) in record.items():
