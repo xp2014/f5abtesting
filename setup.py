@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='f5abtesting',
-    version='0.1.2',
+    version='0.1.3',
     packages=['f5abtesting'],
     package_data={'f5abtesting': ['*.conf']},
     install_requires=['f5-sdk >= 1.1.0'],

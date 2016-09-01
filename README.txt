@@ -1,5 +1,7 @@
 A python package for region based abtesting.
 
+patch the f5-sdk after install f5-sdk: replace the pool.py with f5sdk_pool_patch.py
+
 2 configure files need for the initialization.
 
 ip2region.conf, input IP address to region mapping, here is an example:

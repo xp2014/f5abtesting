@@ -32,7 +32,7 @@ def deploy(vs_name):
     elif not mgmt.tm.ltm.rules.rule.exists(name=irules_ab):
         print irules_ab + ' does not exist, use init_irules to create it.'
     else:
-        vs_tmp = mgmt.tm.ltm.virtuals.virtual.load(name='vs_http', partition='Common')
+        vs_tmp = mgmt.tm.ltm.virtuals.virtual.load(name=vs_name, partition='Common')
         vs_tmp_raw = vs_tmp.raw
         if 'rules' in vs_tmp_raw:
             print vs_tmp_raw['rules']

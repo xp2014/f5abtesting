@@ -24,7 +24,7 @@ def undeploy(vs_name, cleanup):
     dg_ip2region = vs_name + '_dg_ip2region'
     irules_ab = vs_name + '_irules_ab'
     irules_ab_fullpath = '/Common/' + irules_ab
-    vs_tmp = mgmt.tm.ltm.virtuals.virtual.load(name='vs_http', partition='Common')
+    vs_tmp = mgmt.tm.ltm.virtuals.virtual.load(name=vs_name, partition='Common')
     vs_tmp_raw = vs_tmp.raw
     if 'rules' in vs_tmp_raw:
         print vs_tmp_raw['rules']

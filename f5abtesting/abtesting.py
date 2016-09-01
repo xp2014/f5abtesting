@@ -20,7 +20,7 @@ class f5abtesting(object):
         dg_ip2region = vs_name + '_dg_ip2region'
         irules_ab = vs_name + '_irules_ab'
         irules_ab_fullpath = '/Common/' + irules_ab
-        vs_tmp = self.mgmt.tm.ltm.virtuals.virtual.load(name='vs_http', partition='Common')
+        vs_tmp = self.mgmt.tm.ltm.virtuals.virtual.load(name=vs_name, partition='Common')
         vs_tmp_raw = vs_tmp.raw
         if 'rules' in vs_tmp_raw:
             print vs_tmp_raw['rules']
@@ -79,7 +79,7 @@ class f5abtesting(object):
         elif not self.mgmt.tm.ltm.rules.rule.exists(name=irules_ab):
             print irules_ab + ' does not exist, use init_irules to create it.'
         else:
-            vs_tmp = self.mgmt.tm.ltm.virtuals.virtual.load(name='vs_http', partition='Common')
+            vs_tmp = self.mgmt.tm.ltm.virtuals.virtual.load(name=vs_name, partition='Common')
             vs_tmp_raw = vs_tmp.raw
             if 'rules' in vs_tmp_raw:
                 print vs_tmp_raw['rules']
